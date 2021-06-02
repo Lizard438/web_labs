@@ -1,0 +1,8 @@
+@import "./head/head.scss";
+@import "./functions/functions.scss";
+@import "./products/products.scss";
+@import "./main-footer/main-footer.scss";
+.products-base{
+  max-width:82vw;
+  background: $mainBackground;
+}

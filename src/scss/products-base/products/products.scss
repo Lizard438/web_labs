@@ -1,0 +1,86 @@
+.products{
+  max-width: 100%;
+  margin-top: 19px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 24px;
+  margin-right: 34px;
+
+  &__item{
+    width: 32%;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    background: $colorWhite;
+    box-shadow: $boxShadow;
+    border-radius: 5px;
+
+    &:first-child{
+      margin-left: 0;
+    }
+    &:nth-child(4){
+      margin-left: 0;
+    }
+  }
+  &__first-row{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    align:center;
+    &::after{
+      display: block;
+      content: "";
+      border-bottom: 2px solid #E4E7EB;
+      margin-top: 23px;
+      width: 90%;
+    }
+  }
+  &__image{
+    width: 64px;
+    height: 64px;
+    margin-top: 26px;
+    font-size: 18px;
+  }
+  &__description{
+    text-align: center;
+    color:#66788A;
+    font-size: 12px;
+    margin: 8px 28px 0 28px;
+
+  }
+
+
+  &__footer{
+    display: flex;
+    justify-content: space-around;
+
+  }
+  &__time{
+    display: flex;
+    align-items:center;
+    margin: 13px 0;
+  }
+  &__time-icon{
+    width: 20px;
+    height: 20px;
+  }
+  &__time-text{
+    margin-left: 10px;
+    color:#66788A;
+    font-size: 12px;
+  }
+
+  &__download{
+    display: flex;
+    align-items:center;
+    margin: 13px 0;
+  }
+  &__download-icon{
+    width: 20px;
+    height: 20px;
+  }
+  &__download-text{
+    margin-left: 10px;
+    color:#66788A;
+    font-size: 12px;
+  }
+}

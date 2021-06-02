@@ -1,0 +1,59 @@
+.user-card{
+  background: #fff;
+  width: 375px;
+  margin-top: 23px;
+  margin-left: 24px;
+  border-radius: 10px;
+  box-shadow: $boxShadow;
+  max-height: 220px;
+
+  &__card{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #E4E7EB;
+  }
+  &__name{
+    margin-top: 24px;
+    font-size: 24px;
+  }
+  &__location{
+    margin-top: 10px;
+    color: #9EA0A5;
+    font-size: 14px;
+  }
+  &__status{
+    //margin-top: 10px;
+    color: #9EA0A5;
+    font-size: 14px;
+  }
+
+  &__buttons{
+    display: flex;
+    justify-content: space-around;
+  }
+  &__upload{
+    margin:23px 0;
+    color: #425A70;
+    text-transform: uppercase;
+    transition: .4s ease-in-out;
+    &:hover{
+      color:#1665D8;
+    }
+  }
+  &__remove{
+    margin:23px 0;
+    color: #425A70;
+    text-transform: uppercase;
+    transition: .4s ease-in-out;
+    &:hover{
+      color:#1665D8;
+    }
+  }
+}
+
+.user-card__photo img{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 23px 0;
+}

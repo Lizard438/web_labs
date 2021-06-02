@@ -1,0 +1,23 @@
+.main-footer{
+  max-width: 100%;
+  margin-left: 24px;
+  margin-right: 34px;
+  margin-bottom: 30px;
+  &::before{
+    display: block;
+    content: "";
+    border-top: 2px solid #E4E7EB;
+    margin-top: 23px;
+    width: 100%;
+  }
+  &__author{
+    color:#616161;
+    font-size: 14px;
+    margin-top: 16px;
+  }
+  &__text{
+    color: #6B6C6F;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+}

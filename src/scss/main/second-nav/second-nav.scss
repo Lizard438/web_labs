@@ -1,0 +1,25 @@
+.second-nav{
+  display: flex;
+  border-bottom: 2px solid #E4E7EB;
+  &__switch{
+    position: relative;
+    color:#3A3B3F;
+    padding: 18px 5px;
+    font-size: 16px;
+    margin-left: 50px;
+    &:after{
+      position: absolute;
+      left:0;
+      bottom:0;
+      background-color: #1665D8;
+      display: block;
+          content: "";
+      height: 3px;
+      width: 0%;
+      transition: width .3s ease-in-out;
+    }
+    &:hover:after{
+      width: 100%;
+    }
+  }
+}

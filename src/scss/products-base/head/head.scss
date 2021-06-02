@@ -1,0 +1,44 @@
+.head{
+  width: 100%;
+  max-width: 100%;
+  padding-top: 16px;
+  position: relative;
+
+  &__test{
+    background: linear-gradient(lighten(#008dff,30%),#008dff);
+    margin-left: 24px;
+    margin-right: 32px;
+    border-radius: 5px;
+  }
+  &__photo{
+    border-radius: 5px;
+    width: 100%;
+    vertical-align: top;
+    opacity: 60%;
+  }
+
+  &__logo{
+    position: absolute;
+    display: flex;
+    left: 5%;
+    top:180px;
+  }
+  &__icon{
+    width: 100px;
+    height: 100px;
+  }
+  &__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 16px;
+  }
+  &__title{
+    color: #9EA0A5;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  &__name{
+    font-size: 20px;
+  }
+}

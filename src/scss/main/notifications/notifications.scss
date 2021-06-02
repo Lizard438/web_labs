@@ -1,0 +1,56 @@
+.notifications{
+  background: $colorWhite;
+  width: 800px;
+  margin-top: 24px;
+  padding-bottom: 36px;
+  border-radius: 10px;
+  box-shadow: $boxShadow;
+
+  &__text{
+    display: flex;
+    align-items: baseline;
+    padding: 23px 0;
+    border-bottom: 2px solid #E4E7EB;
+  }
+  &__form-notifications{
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+
+  }
+  &__text-form{
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  &__form-messages{
+    display: flex;
+    flex-direction: column;
+    margin-left: 85px;
+  }
+  &__data{
+    margin-bottom: 20px;
+    transform: scale(1.5);
+  }
+  &__bb{
+    border-bottom: 2px solid #E4E7EB ;
+    margin-bottom: 36px;
+  }
+  &__button-submit{
+    color: #1665D8;
+    background: $colorWhite;
+    margin-left: 24px;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    padding: 12px 16px;
+    border: 1px solid lighten(#1665D8,35%);
+    border-radius: 5px;
+    box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    text-transform: uppercase;
+  }
+
+  label{
+    color: darken(#FFF, 40%);
+    font-size: 16px;
+    margin-left: 10px;
+  }
+}

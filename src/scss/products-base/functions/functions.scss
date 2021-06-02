@@ -1,0 +1,32 @@
+.functions{
+  margin-top: 95px;
+  display: flex;
+  justify-content: space-between;
+
+  &__form{
+    width: 520px;
+    margin-left: 24px;
+    display: flex;
+    border-radius: 5px;
+    background: $colorWhite;
+    box-shadow: $boxShadow;
+  }
+  &__submit{
+    padding-right: 14px;
+    padding-top: 10px;
+    margin-left: 13px;
+  }
+  &__input{
+    border-style: none;
+    padding: 10px auto;
+  }
+  &__new-product{
+    color:$colorWhite;
+    font-size: 14px;
+    padding: 10px 15px;
+    background: #47B881;
+    border-radius: 5px;
+    margin-right: 34px;
+    box-shadow: $boxShadow;
+  }
+}
